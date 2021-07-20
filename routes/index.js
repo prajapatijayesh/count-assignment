@@ -18,6 +18,10 @@ const validateRequest = SchemaValidator(Schemas);
 // controller
 const ctrl = require('../controllers/index');
 
+router.get('/', (req, res, next) => {
+    return res.render('index', { title: 'getir' });
+});
+
 router.post('/', validateRequest, ctrl.fetch);
 
 module.exports = router;
