@@ -20,7 +20,7 @@ For development, you'll only need Node and Yarn installed in your environement.
 
 ## Configure app
 
-Open `count-assignment/config/default.json` then edit it with your settings. You will need:
+Open `count-assignment/config/staging.json` then edit it with your settings. You will need:
 
 - dbConfig setting;
  
